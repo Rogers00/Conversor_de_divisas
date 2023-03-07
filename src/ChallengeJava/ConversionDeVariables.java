@@ -15,6 +15,8 @@ public class ConversionDeVariables {
 			conversion.menuDivisas();
 			conversion.montoDeDivisa();
 			conversion.conversion();
+			
+			
 		}
 		
 	}
