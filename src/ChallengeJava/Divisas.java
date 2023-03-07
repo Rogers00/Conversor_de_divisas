@@ -19,7 +19,7 @@ public class Divisas {
 		while(true) {
 			this.monto = JOptionPane.showInputDialog(null, "Ingrese la cantidad de dinero que desea convertir");
 			if(comprobacionDeNumero(this.monto)) {
-				this.valor = Integer.parseInt(this.monto);
+				this.valor = Integer.parseInt(this.monto); 
 				break;
 			}else {
 				JOptionPane.showMessageDialog(null, "El monto ingresado no es un numero valido", "Mensaje", 0);
